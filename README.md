@@ -165,14 +165,6 @@ Generated outputs:
 
 The scripts compute averages and aggregate statistics by parameter (size, sparsity, iterations, process count), enabling direct plotting/analysis in reports.
 
-## Engineering Highlights
-
-- Distributed-memory decomposition with explicit communication primitives (`Bcast`, `Scatter`, `Scatterv`, `Reduce`, `Allgatherv`)
-- Clear separation of communication and computation timing
-- Serial-vs-parallel verification for correctness confidence
-- End-to-end experiment automation for reproducible results
-- Comparative analysis of sparse vs dense representations under varying sparsity and scaling factors
-
 ## Environment Notes
 
 - Compiler: `mpicc`
